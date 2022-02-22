@@ -39427,7 +39427,7 @@ var workerCode$1 = transform(getWorkerString(function () {
 
 
     this.isNewInit = function (videoTrackIds, timescales) {
-      console.log(videoTrackIds, timescales)
+      // console.log(videoTrackIds, timescales)
       return false
       if (videoTrackIds && videoTrackIds.length === 0 || timescales && typeof timescales === 'object' && Object.keys(timescales).length === 0) {
         return false;
